@@ -68,10 +68,10 @@
 #define p2_sw_aux1  rxdata.oi_swB_byte.bitselect.bit2 /* Aux input*/
 #define p2_sw_aux2  rxdata.oi_swB_byte.bitselect.bit3 /* Aux input*/
 
-#define p4_manip_cntrl  rxdata.oi_swB_byte.bitselect.bit4 /* Manipulator Control button*/
-#define p4_cmp_toggle   rxdata.oi_swB_byte.bitselect.bit5 /* Compressor manual/auto toggle*/
-#define p4_cmp_manual  rxdata.oi_swB_byte.bitselect.bit6 /* Compressor Manual override*/
-#define p4_kill_sw  rxdata.oi_swB_byte.bitselect.bit7 /* Kill Switch*/
+#define p4_sw_trig  rxdata.oi_swB_byte.bitselect.bit4 /* Joystick Trigger Button*/
+#define p4_sw_top   rxdata.oi_swB_byte.bitselect.bit5 /* Joystick Top Button*/
+#define p4_sw_aux1  rxdata.oi_swB_byte.bitselect.bit6 /* Aux input*/
+#define p4_sw_aux2  rxdata.oi_swB_byte.bitselect.bit7 /* Aux input*/
 
 /*
  *-----------------------------------------------------------------------------------------------------
